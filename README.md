@@ -1,7 +1,7 @@
 Pupil Analysis
 ==============================
 
-Pupilometry using OpenCV to extract salient features, namely pupil diameter over time. This repository comes with a .yml file that can be used with conda to build a virtual environment in which all code will function. The virtual environments used python2.7
+Pupilometry using OpenCV to extract salient features, namely pupil diameter over time. This repository comes with a .yml file that can be used with conda to build a virtual environment in which all code will function. The virtual environments uses python2.7
 
 First, download anaconda to your computer. With conda loaded or in your path, navigate to the head of the repository and run this code from the command line:
     
