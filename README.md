@@ -7,7 +7,19 @@ First, download anaconda to your computer. With conda loaded or in your path, na
     
     conda env create -f .env/pupil27.yml
     
-This will create the proper environment in the folder you have specified previously with conda. Using the interpreter in this environmen, the use of jupyter notebooks is available and all code will run smoothly.
+This will create the proper environment in the folder you have specified previously with conda. Activate the environment with:
+    
+    conda activate pupil27
+
+Using the interpreter in this environmen, the use of jupyter notebooks is available and all code will run smoothly. To verify the environment was installed correctly you can use:
+
+    conda env list
+
+or
+
+    conda info --envs
+
+
 
 Futher tuturial information coming.
 
