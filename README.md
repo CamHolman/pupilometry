@@ -20,6 +20,10 @@ or
     conda info --envs
 
 
+The structural organization of the project is based on the Cookiecutter Data Science package. More information can be found here:
+
+    https://drivendata.github.io/cookiecutter-data-science/
+
 
 Futher tuturial information coming.
 
