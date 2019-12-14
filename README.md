@@ -1,7 +1,15 @@
 Pupil Analysis
 ==============================
 
-Analyzing Pupil Data for Sae
+Pupilometry using OpenCV to extract salient features, namely pupil diameter over time. This repository comes with a .yml file that can be used with conda to build a virtual environment in which all code will function. The virtual environments used python2.7
+
+First, download anaconda to your computer. With conda loaded or in your path, navigate to the head of the repository and run this code from the command line:
+    
+    conda env create -f .env/pupil27.yml
+    
+This will create the proper environment in the folder you have specified previously with conda. Using the interpreter in this environmen, the use of jupyter notebooks is available and all code will run smoothly.
+
+Futher tuturial information coming.
 
 Project Organization
 ------------
