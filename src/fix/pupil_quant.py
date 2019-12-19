@@ -2,14 +2,14 @@ from CVROIGrabber import CVROIGrabber
 from PupilTracker import PupilTracker
 import cv2, scipy.io, os, numpy as np
 
+ """
+ Author @CMH
+ Derived from @MR
+ Function to collect pupil quant data
+ """ 
 
- 
- # test comment s
-
-# test 2 
-
-# Set Default Params - can be replaced in function arg
-# Pupil size tracking parameters (why are these in a function)
+# Set Default Params for pupil tracking
+#     - can be replaced in function arg
 default_params = dict(
     relative_area_threshold=0.01,#.001
     ratio_threshold=2, #2

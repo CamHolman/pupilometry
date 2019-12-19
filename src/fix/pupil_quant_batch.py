@@ -2,6 +2,11 @@ import os
 import skimage as sk
 from src.fix.pupil_quant import pupil_quant_cmh
 
+"""
+Author CMH
+Function to collect batch data for pupil quant
+"""
+
 def pupil_quant_batch(input_dir, output_dir = None):
     images = sk.io.ImageCollection(os.path.join(input_dir, '*.avi'))
     # print (images.files)
